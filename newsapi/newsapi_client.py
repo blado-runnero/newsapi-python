@@ -137,7 +137,7 @@ class NewsApiClient(object):
 							
 		(str) domains - A comma-seperated string of domains (eg bbc.co.uk, techcrunch.com, engadget.com) to restrict the search to. 
 
-		(str) from_parameter - A date and optional time for the oldest article allowed.
+		(str) from_param - A date and optional time for the oldest article allowed.
                                        (e.g. 2018-03-05 or 2018-03-05T03:46:15)
 				
 		(str) to - A date and optional time for the newest article allowed.
